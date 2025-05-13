@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <main className='min-h-screen max-w-screen-xl mx-auto py-6 font-primary'>
+      <main className='min-h-screen max-w-screen-2xl mx-auto py-6 font-primary px-4'>
         <Outlet />
       </main>
       <Footer />
