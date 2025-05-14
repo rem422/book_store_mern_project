@@ -25,8 +25,6 @@ const TopSallers = () => {
 
     console.log(filteredBooks);
     
-    
-
   return (
     <div className='py-10'>
         <h2 className='text-3xl font-semibold mb-6'>Top Sellers</h2>
@@ -72,7 +70,6 @@ const TopSallers = () => {
         className="mySwiper"
       >
         
-
         {
             filteredBooks.length > 0 && filteredBooks.map((book, index) => (
                 <SwiperSlide key={index}>
