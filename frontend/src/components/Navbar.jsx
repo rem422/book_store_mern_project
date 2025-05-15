@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from "react-router-dom";
-import { HiBars3CenterLeft } from "react-icons/hi2";
+import { PiBooks } from "react-icons/pi";
 import { IoSearchSharp } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
@@ -25,7 +25,7 @@ const Navbar = () => {
         {/* left side */}
         <div className="flex items-center md:gap-16 gap-4">
           <Link to="/">
-            <HiBars3CenterLeft className="size-6"/>
+            <PiBooks className="size-6"/>
           </Link>
           {/* search input */}
           <div className="relative sm:w-72 w-40 space-x-0">
